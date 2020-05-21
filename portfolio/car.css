@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background-image: url("COMP.jpg");
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     FONT-FAMILY: cursive;
+     padding: 20px 200px;
+     
+}
+h1{
+    color: #FFA500;
+}
+.two{
+        text-align: CENTER;
+    margin: TOP;
+    font-family: CURSIVE;      
+}
+.COL{
+    COLOR: GRAY;
+}

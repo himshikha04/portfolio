@@ -1,0 +1,17 @@
+body{
+    
+     background-image: url("wall.jpg");
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     FONT-FAMILY: cursive;
+     PADDING: 10PX 150PX;
+}
+h1{
+    color: black;
+}
+.four{
+        text-align: CENTER;
+    margin: TOP;
+    font-family: CURSIVE; 
+}

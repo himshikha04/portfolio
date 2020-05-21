@@ -1,0 +1,39 @@
+body{
+    background-image: url("COMP.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    PADDING: 50PX 50PX;  
+}
+h1{
+    color: ORANGE;
+    TEXT-ALIGN: CENTER;
+}
+.TOP{
+
+    overflow: hidden;
+    COLOR: ;
+}
+#TOPNAV{
+    float: TOP;
+  display: block;
+  color: ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.TOP:hover {
+  color: BLUE;
+}
+.top.active {
+  background-color: #4CAF50;
+  color: orange;
+}
+.COLOR{
+    COLOR: TEAL;
+}
+a:hover{
+  text-decoration: underline;
+  color: orange;
+}

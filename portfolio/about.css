@@ -1,0 +1,66 @@
+body{
+    
+    background-image: url("COMP.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     FONT-FAMILY: cursive;
+     padding-bottom: 200px;
+     PADDING-TOP: 50PX;
+}
+h1{
+    text-align: CENTER;
+    font-family: cursive;
+    COLOR: #ffa500;
+    PADDING: 20PX 250PX;
+ }
+.ABOUT{
+    COLOR: #FF3333;
+    padding-left: 100px;
+    padding-right: 600px;
+    }
+.PL{
+    PADDING-LEFT: 40PX;
+    COLOR: GRAY;
+}
+.SKILLS{
+    PADDING-LEFT: 40PX;
+    COLOR: #FF3333;
+}
+.five{
+    color: #FF3333;
+    
+}
+.NAME{
+    color: LIGHTGRAY;
+}
+.NAME2{
+    TEXT-ALIGN: center;
+    color: lightgray;
+}
+
+.box1{
+    margin-right: 10%;
+    margin-left: 25%;
+    BACKGROUND-COLOR: BLACK;
+    PADDING-LEFT: 20PX;
+    PADDING-RIGHT: 20PX;
+}
+.box2{
+
+    margin-left: 10%;
+    margin: center;
+
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: seagreen;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    padding: 15px 20px;
+}
+
+

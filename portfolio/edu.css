@@ -1,0 +1,45 @@
+body{
+    
+    background-image: uRL("COMP.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FF9966;
+    PADDING: 20PX;
+}
+.SCH{
+    PADDING-LEFT: 200PX;
+    PADDING-RIGHT: 200PX;      
+
+}
+h1{
+    color: GREEN;
+    PADDING: 20PX ;
+}
+.three{
+        text-align: CENTER;
+    margin: TOP;
+    font-family: CURSIVE; 
+}
+.sec{
+    display: flex;
+    FLOAT: LEFT;
+      FLEX-DIRECTION: COLUMN;
+      BACKGROUND-COLOR: BLACK;
+      PADDING-LEFT: 110PX;
+      PADDING-RIGHT: 40PX;
+      PADDING-TOP: 15PX;
+    PADDING-BOTTOM: 15PX;
+}
+.sr{
+    DISPLAY: FLEX;
+    
+    FLEX-DIRECTION: COLUMN;
+     BACKGROUND-COLOR: BLACK;
+      PADDING-LEFT: 30PX;
+      PADDING-RIGHT: 40PX;
+      PADDING-TOP: 15PX;
+    PADDING-BOTTOM: 15PX;
+
+
+}
