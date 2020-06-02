@@ -1,0 +1,27 @@
+body{
+    background-image: url("rtb24.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 1400px 850px;
+}
+
+.search-hr {
+    margin-top: 0px;
+}
+
+.search-results-navtab {
+    padding-left: 0px;
+    margin-left: 32px;
+    margin-right: 70px;
+    margin-bottom: 1px;
+    list-style: none;
+    border: 0px !important;
+    display: flex;
+}
+
+.search-list-class {
+    padding-right: 100px;
+}
+.container1{
+    text-align: center;
+}
