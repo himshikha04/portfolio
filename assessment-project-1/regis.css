@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-image: url("consert.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     
+}
+
+#login-box{
+position: relative;
+margin: 5% auto;
+height: 550px;
+width: 600px;
+background: #fff;
+box-shadow: 0 2px 4px rgb(0, 0, 6);
+}
+.left-box{
+    position: absolute;
+    top: 0;
+    box-sizing: 50px;
+    padding: 40px;
+    width: 400px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+.form-group-right{
+    border-bottom: 1px solid #aaa;
+    padding: 4px;
+    font-size: 15px;
+}
+.form-right{
+    border-bottom: 1px solid #aaa;
+    padding: 4px;
+    font-size: 15px;
+}
+
+input[type="text"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+
+}
+input[type="submit"]{
+        margin-bottom: 28px;
+        width: 120px;
+        height: 32px;
+        background: teal;
+        border: none;
+        /*border-radius: 2px;*/
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: pointer; 
+        border-radius: 0.5px 0.5px 0.5px 0px;
+}
+input[type="submit"]:hover,input[type="submit"]:focus{
+    background: #ff5722;
+    transition: 0.2s ease;
+    
+}
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box; 
+    padding: 40px;
+    width: 300px;
+    height: 550px;
+    background-image: url("mike2.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+ }
+ .or{
+     position: absolute;
+     top: 180px;
+     left: 280px;
+     width: 40px;
+     height: 40px;
+     background: #efefef;
+     border-radius: 50%;
+     box-shadow: 0 2px 4px rgb(0, 0, 6);
+     line-height: 40px;
+     text-align: center;
+
+ }
+ .right-box .signwith{
+     display: block;
+     margin-bottom: 40px;
+     font-size: 28px;
+     color: gray;
+     text-align: center;
+     text-shadow: 0 2px 4px rgb(0, 0, 6);
+ }
+ button.social{
+     margin-bottom: 20px;
+     width: 220px;
+     height: 40px;
+     border: none;
+     border-radius: 2px;
+     color: white;
+     font-family: sans-serif; 
+     font-weight: 500;
+     transition: 0.2s ease;
+     cursor: pointer;
+
+ }
+ .facebook{
+     background: #32508e;
+    
+ }
+ .Gmail{
+     background: #55acee;
+ }
+ .google{
+     background: #dd4b39;
+ }
+ /* The sidebar menu */
+.sidenav {
+  height: 50%; /* Full-height: remove this if you want "auto" height */
+  width: 175px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 40; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
